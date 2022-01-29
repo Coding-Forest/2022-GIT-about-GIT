@@ -281,6 +281,3 @@ Then finally `push` the changes to the `origin`.
 
 [[Top]](#top)
 
-
-<br>
-<br>
