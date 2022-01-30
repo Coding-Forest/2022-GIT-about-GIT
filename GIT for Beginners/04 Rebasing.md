@@ -34,7 +34,8 @@
                 new file:   birch_story.txt
 
 
-- `git commit -m 'commit for rebase'`
+- `git commit -m 'commit for rebase'`  
+
         [story/willow-and-lake 9c7ade0] commit for rebase
            3 files changed, 42 insertions(+)
            create mode 100644 willow_story.txt
@@ -52,7 +53,7 @@ Finally, `rebase`.
 
 ## Interactive rebasing
 
-- `git rebase -i HEAD~<NUMBER>: rebase last <number> of commits
+- `git rebase -i HEAD~<NUMBER>`: rebase last <number> of commits
   - `-i`: interactive
   - `git` will show you the rebase file in text editor. 
     - `squash`: melt multiple commits into one. 
