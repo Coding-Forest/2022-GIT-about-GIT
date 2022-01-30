@@ -83,7 +83,49 @@ used to undo the changes.
         git reset --hard HEAD~3
         HEAD is now at 9a7f71a Finish willow-and-lake story
 
-- ``: 
+<br>
+<br>
+
+## Edit commit history
+
+- `git commit --amend`: Edit the last commit history
+
+Before
+
+    git log --name-only
+    commit f3c88e~ (HEAD -> main)
+    Author: Coding Forest
+    Date:   Sun Jan 30 13:04:04 2022 +0900
+
+        Completed Ansible for beginners
+
+        Added badge image
+
+        Updated README
+
+        Updated README
+
+    Ansible for the Absolute Beginners/00 Setup.md
+    README.md
+    images/Badge - Ansible for Beginners.png
+
+
+<br>
+
+After 
+
+    git log --name-only
+    
+    commit 1b9569~ (HEAD -> main)
+    Author: Coding Forest
+    Date:   Sun Jan 30 13:04:04 2022 +0900
+
+        Completed Ansible for beginners
+
+    Ansible for the Absolute Beginners/00 Setup.md
+    README.md
+    images/Badge - Ansible for Beginners.png
+ 
 
 <br>
 <br>
